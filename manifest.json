@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "Any Chat",
+    "version": "1.0",
+    "description": "Chat with websites using AI models",
+    "permissions": [
+      "activeTab",
+      "scripting"
+    ],
+    "host_permissions": [
+      "your_server_url"
+    ],
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "background": {
+      "service_worker": "background.js"
+    }
+  }
